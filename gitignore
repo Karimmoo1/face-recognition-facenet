@@ -1,0 +1,25 @@
+# --- Personal data: NEVER commit these ---
+data/
+videos/
+faces/
+*.mp4
+*.avi
+*.mov
+*.pt
+*.pth
+*.npy
+*.pkl
+embeddings*
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
